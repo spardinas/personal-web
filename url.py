@@ -32,8 +32,8 @@ def create_presigned_url(bucket_name, object_name, expiration=3600):
     # The response contains the presigned URL
     return response
     
-bucket = 'pardinas-cv'
-obj = 'CV_Detailed_2023.pdf'
+bucket = 'bucketname'
+obj = 'download.pdf'
 ## create_presigned_url(bucket,obj)
 
 def lambda_handler(event, context):
